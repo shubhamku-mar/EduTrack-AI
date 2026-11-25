@@ -1,6 +1,6 @@
 // API Client for Student Risk Analytics REST Backend
 
-const API_BASE = '/api';
+const API_BASE = 'https://edu-track-ai-backend.onrender.com/api';
 
 async function request(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`;
